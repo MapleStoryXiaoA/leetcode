@@ -64,7 +64,7 @@ public class MaxHeap最大堆 {
             return index * 2 + 1;
         }
 
-        //传入一个节点的索引,找到左子节点的索引
+        //传入一个节点的索引,找到右子节点的索引
         private int getRightIndex(int index) {
             return index * 2 + 2;
         }
