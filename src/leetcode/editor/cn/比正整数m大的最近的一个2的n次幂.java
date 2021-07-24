@@ -34,6 +34,9 @@ public class 比正整数m大的最近的一个2的n次幂 {
         }
     }
 
+    /**
+     * hashmap同款位运算
+     */
     static class Solution2 {
         public int get(int m) {
             int n = m - 1;
@@ -45,5 +48,4 @@ public class 比正整数m大的最近的一个2的n次幂 {
             return n + 1;
         }
     }
-
 }
