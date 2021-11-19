@@ -5,7 +5,7 @@ package leetcode.editor.cn;
  * <p>
  * 如果两个树在结构上相同，并且节点具有相同的值，则认为它们是相同的。
  */
-public class P100相同的树 {
+public class P100两颗树是否为相同的树 {
 
 
     public class TreeNode {
