@@ -1,6 +1,6 @@
 package leetcode.editor.cn;
 
-public class P108将有序数组转换为二叉搜索树 {
+public class P108将有序数组转换为平衡二叉搜索树 {
 
     public static void main(String[] args) {
         new Solution().sortedArrayToBST(new int[]{-10, -3, 0, 5, 9});
