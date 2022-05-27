@@ -12,8 +12,8 @@ package leetcode.editor.cn;
 public class DeadLockDemo {
 
     //首先要两个资源
-    private static Object resourceA = new Object();
-    private static Object resourceB = new Object();
+    private static final Object resourceA = new Object();
+    private static final Object resourceB = new Object();
 
     public static void main(String[] args) {
         new Thread(
